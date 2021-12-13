@@ -53,7 +53,7 @@ angular.module('image.text')
 	$scope.finishAddingTextToCanvas = function() {
 		var textObject = text.getTextObject();
 
-		$rootScope.activePanel = false;
+		$rootScope.activePanel = true;
 		$rootScope.$emit('text.added', textObject);
 		canvas.fabric.setActiveObject(canvas.mainImage);
 		fonts.createLinkToFont(textObject.fontFamily);

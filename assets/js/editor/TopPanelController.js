@@ -111,7 +111,7 @@ angular.module('ImageEditor')
     };
 
     $scope.saveImage = function($event) {
-        saver.saveImage($scope.imageType, $scope.imageQuality, $scope.imageName, $event);
+        saver.saveImage($scope.imageType, $scope.imageQuality, $scope., $event);
     };
 
     $scope.showImagePreview = function(url) {
