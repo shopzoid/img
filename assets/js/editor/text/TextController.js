@@ -26,7 +26,7 @@ angular.module('image.text')
 				fontWeight: 400,
 				fontSize: 28 / canvas.currentZoom,
 				fill: '#fff',
-				removeOnCancel: true,
+				
 				name: 'text'
 			});
 
